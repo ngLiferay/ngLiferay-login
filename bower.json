@@ -1,0 +1,46 @@
+{
+  "name": "ngLiferay-login",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ngLiferay/ngLiferay-login",
+  "description": "ngLiferay-login",
+  "main": [
+    "./dist/js/scripts.js",
+    "./dist/css/main.css"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "ngLiferay",
+    "liferay",
+    "login"
+  ],
+  "authors": [
+    "Yogesh Agarwal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".tmp",
+    ".tmpWar"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "jquery": "~2.1.4",
+    "bootstrap": "^3.2.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-route": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
+    "angular-messages": "~1.4.8",
+    "ngLiferay-language": "~0.0.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  }
+}

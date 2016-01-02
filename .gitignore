@@ -1,0 +1,6 @@
+/.tmp
+/.tmpWar
+/.sass-cache
+/bower_components
+/node_modules
+/lr-override.properties

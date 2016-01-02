@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+
+  <!-- build:css(.tmp) css/main.css -->
+  <!-- injector:css -->
+  <link rel="stylesheet" href="css/login.css">
+  <!-- endinjector -->
+  <!-- endbuild -->
+</head>
+
+
+<body ng-app="ngLiferay-login">
+
+  <!-- Must include this jsp to load Liferay variables during bootstrapping -->
+  $theme.include("/html/common/themes/ngLiferay_js.jsp")
+
+
+  <div class="container">
+    <a href="#" ng-liferay-login="modal" data-modal="{size:''}">Sign In</a>
+    <ng-liferay-login></ng-liferay-login>
+  </div>
+
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.js"></script>
+  <script src="bower_components/ngLiferay-language/dist/js/scripts.js"></script>
+  <!-- endbower -->
+
+  <!-- build:js({.tmp,app}) js/scripts.js -->
+  <script src="js/app.js"></script>
+  <!-- injector:js -->
+  <!-- endinjector -->
+  <!-- endbuild -->
+  <script src="js/devNgFixes.js"></script>
+  <script src="js/ngLiferayServices.js"></script>
+</body>
+
+</html>
