@@ -2,7 +2,7 @@
   "name": "ngLiferay-login",
   "version": "0.0.1",
   "homepage": "https://github.com/ngLiferay/ngLiferay-login",
-  "description": "ngLiferay-login",
+  "description": "Login plugin enables user to login in Liferay.",
   "main": [
     "./dist/js/scripts.js",
     "./dist/css/main.css"
